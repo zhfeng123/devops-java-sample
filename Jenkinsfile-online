@@ -12,7 +12,7 @@ pipeline {
     environment {
         DOCKER_CREDENTIAL_ID = 'harbor'
         GITHUB_CREDENTIAL_ID = 'github-zhfeng123'
-        KUBECONFIG_CREDENTIAL_ID = 'default-token-h4xfd'
+        KUBECONFIG_CREDENTIAL_ID = 'test-kubeconfig'
         REGISTRY = 'harbor.devops.kubesphere.local:30280/xjbase'
         DOCKERHUB_NAMESPACE = 'admin'
         GITHUB_ACCOUNT = 'https://github.com/zhfeng123'

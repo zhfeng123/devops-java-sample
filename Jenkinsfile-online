@@ -13,7 +13,7 @@ pipeline {
         DOCKER_CREDENTIAL_ID = 'harbor'
         GITHUB_CREDENTIAL_ID = 'github-zhfeng123'
         KUBECONFIG_CREDENTIAL_ID = 'test-kubeconfig'
-        REGISTRY = 'harbor.devops.kubesphere.local:30280/xjbase'
+        REGISTRY = 'http://112.74.217.152:30280/xjbase'
         DOCKERHUB_NAMESPACE = 'admin'
         GITHUB_ACCOUNT = 'https://github.com/zhfeng123'
         APP_NAME = 'devops-java-sample'

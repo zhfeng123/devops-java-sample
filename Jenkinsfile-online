@@ -11,8 +11,8 @@ pipeline {
 
     environment {
         DOCKER_CREDENTIAL_ID = 'harbor'
-        REGISTRY = '112.74.217.152:30280'
-        DOCKERHUB_NAMESPACE = 'admin'
+        REGISTRY = 'harbor.devops.kubesphere.local:30280'
+        DOCKERHUB_NAMESPACE = 'xjbase'
         GITHUB_ACCOUNT = 'zhfeng123'
         APP_NAME = 'devops-java-sample'
     }
